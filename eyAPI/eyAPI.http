@@ -1,0 +1,6 @@
+@eyAPI_HostAddress = http://localhost:5240
+
+GET {{eyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
