@@ -11,7 +11,7 @@ using eyAPI.Models;
 namespace eyAPI.Migrations
 {
     [DbContext(typeof(ProviderContext))]
-    [Migration("20240226020042_initial")]
+    [Migration("20240227011318_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -47,8 +47,8 @@ namespace eyAPI.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentificacionTributaria")
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("NombreComercial")
                         .HasMaxLength(255)

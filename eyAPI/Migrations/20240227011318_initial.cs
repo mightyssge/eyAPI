@@ -18,7 +18,7 @@ namespace eyAPI.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     RazonSocial = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     NombreComercial = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    IdentificacionTributaria = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true),
+                    IdentificacionTributaria = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     NumeroTelefonico = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     CorreoElectronico = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     SitioWeb = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),

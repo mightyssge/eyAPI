@@ -17,7 +17,7 @@ namespace eyAPI.Models
         public string? NombreComercial { get; set; }
 
 
-        [MaxLength(11)]
+        [MaxLength(255)]
         public string? IdentificacionTributaria { get; set; }
 
 

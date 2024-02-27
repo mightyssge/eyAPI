@@ -44,8 +44,8 @@ namespace eyAPI.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentificacionTributaria")
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("NombreComercial")
                         .HasMaxLength(255)
